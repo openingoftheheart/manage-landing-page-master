@@ -127,8 +127,42 @@
         border-radius: 30px;
     }
 
+    .testimonials-container {max-width: 1200px; margin: 0 auto; overflow: hidden;}
+
+    .testimonials-container h2 {
+        text-align: center;
+        font-size: 2rem;
+        color: hsl(228, 39%, 23%);
+        margin: 4em auto 2em auto;
+    }
+
     .testimonials {
-        margin: 3em;
+        display: flex;
+        gap: 4em;
+        text-align: center;
+        padding: 1em;
+        overflow-x: auto;
+        scroll-snap-type: x mandatory;
+        padding: 0 2rem;
+    }
+
+    .review {
+        background-color: hsl(233, 12%, 13%);
+        flex: 0 0 30%; /* each card takes 30% of container width */
+        background: #f9f9f9;
+        border-radius: 8px;
+        box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+        scroll-snap-align: start;
+        }
+
+    .avatar {
+        width: 70px;
+        height: 70px;
+    }
+
+    .btn {
+        display: block;
+        margin: 5em auto 8em auto;
     }
 
     .cta {
