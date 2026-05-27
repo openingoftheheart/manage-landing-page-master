@@ -34,6 +34,8 @@
     .logo {margin-top: 10px;}
     .nav-links li {margin-right: 2em;}
     .nav-links a {color: hsl(228, 39%, 23%);}
+
+    .nav-links a:hover {opacity: 0.5;}
     
     .btn {
         padding: 1em;
@@ -42,6 +44,11 @@
         border-radius: 20px;
         background-color: hsl(12, 88%, 59%);
         color: white;
+    }
+
+    .btn:hover {
+      box-shadow: inset 0 0 30px hsla(0, 0%, 100%, 0.6),
+      inset 0 0 60px hsla(0, 0%, 100%, 0.4);
     }
     
     .hero {
@@ -160,9 +167,20 @@
         height: 70px;
     }
 
-    .btn {
+    .testimonials-btn {
         display: block;
         margin: 5em auto 8em auto;
+        padding: 1em;
+        border: none;
+        min-width: 130px;
+        border-radius: 20px;
+        background-color: hsl(12, 88%, 59%);
+        color: white;
+    }
+
+    .testimonials-btn:hover {
+        box-shadow: inset 0 0 30px hsla(0, 0%, 100%, 0.6),
+        inset 0 0 60px hsla(0, 0%, 100%, 0.4);
     }
 
     .cta {
@@ -186,6 +204,12 @@
         font-weight: 700;
     }
 
+    .cta-btn:hover {
+        box-shadow: inset 0 0 30px hsla(0, 0%, 100%, 0.6),
+        inset 0 0 60px hsla(0, 0%, 100%, 0.4);
+
+    }
+    
     .footer-container {
         padding: 1em;
         background-color:  hsl(233, 12%, 13%);
@@ -205,6 +229,10 @@
 
     .footer-links a {color: white;}
     .footer-links li{margin-bottom: 1em;}
+
+    .footer-links a:hover {color: hsl(12, 88%, 59%);}
+    .social-links svg {color: white; margin-right: 0.5em;}
+    .social-links svg:hover {color: hsl(12, 88%, 59%); cursor: pointer;}
 
     .left-links {
         display: flex;
@@ -232,6 +260,11 @@
         font-weight: 600;
     }
 
+    .footer-btn:hover {
+        box-shadow: inset 0 0 30px hsla(0, 0%, 100%, 0.6),
+        inset 0 0 60px hsla(0, 0%, 100%, 0.4);
+    }
+    
     .copyright {
         margin-top: 3em;
         color: white;
