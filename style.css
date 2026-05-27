@@ -1,0 +1,207 @@
+    html {font-size: 16px}
+
+    * {
+        box-sizing: border-box;
+        margin:0;
+        padding: 0;
+    }
+
+    body {
+        font-family: "Be Vietnam Pro", sans-serif;
+        background-image: url(/images/bg-tablet-pattern.svg);
+    }
+    
+    .container {margin: 0 auto;}
+
+    li {
+        display: inline-block;
+        list-style: none;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    button,a {cursor: pointer;}
+    .navbar {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 1em;
+        padding: 1em;
+    }
+
+    .logo {margin-top: 10px;}
+    .nav-links li {margin-right: 2em;}
+    .nav-links a {color: hsl(228, 39%, 23%);}
+    
+    .btn {
+        padding: 1em;
+        border: none;
+        min-width: 130px;
+        border-radius: 20px;
+        background-color: hsl(12, 88%, 59%);
+        color: white;
+    }
+    
+    .hero {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 3em;
+    }
+    
+    .hero-info {
+        max-width: 400px;
+    }
+
+    .hero-info h1 {
+        color: hsl(228, 39%, 23%);
+        font-size: 2.7rem;
+        font-weight: 800;
+        margin-bottom: 0.7em;
+    }
+    
+    .hero-info p {
+        color: hsl(233, 12%, 13%);
+        font-size: 1.12rem;
+        line-height: 1.4;
+        margin-bottom: 2em;
+    }
+
+    .illustration img {
+        height: 400px;
+    }
+
+    .header {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 3em;
+    }
+
+    .header-info {width: 400px;}
+    .header-list {width: 400px;}
+
+    .header-info h2 {
+        color: hsl(228, 39%, 23%);
+        font-size: 1.8rem;
+        margin-bottom: 1em;
+    }
+
+    .header-info p {
+        color: hsl(233, 12%, 13%);
+        font-size: 1.12rem;
+    }
+
+    .list {margin: 1.2em; position: relative;}
+    .list h4 {color: hsl(228, 39%, 23%);}
+    .list p {color:hsl(233, 12%, 13%); margin-top: 0.9em;}
+
+    .one h4::before {
+        position: absolute;
+        content: "01";
+        left: -100px;
+        background-color: hsl(12, 88%, 59%);
+        color: white;
+        padding: 0.5em 1.2em;
+        border-radius: 30px;
+
+    }
+
+    .two h4::before {
+        position: absolute;
+        content: "02";
+        left: -100px;
+        background-color: hsl(12, 88%, 59%);
+        color: white;
+        padding: 0.5em 1.2em;
+        border-radius: 30px;
+    }
+
+    .three h4::before {
+        content: "03";
+        position: absolute;
+        left: -100px;
+        background-color: hsl(12, 88%, 59%);
+        color: white;
+        padding: 0.5em 1.2em;
+        border-radius: 30px;
+    }
+
+    .testimonials {
+        margin: 3em;
+    }
+
+    .cta {
+        display: flex;
+        justify-content: space-between;
+        background-color:  hsl(12, 88%, 59%);
+        padding: 4em;
+        color: white;
+    }
+
+    .cta h2 {
+        font-size: 2.3rem;
+    }
+
+    .cta-btn {
+        border: none;
+        width: 130px;
+        background-color:  white;
+        color:  hsl(12, 88%, 59%);
+        border-radius: 30px;
+        font-weight: 700;
+    }
+
+    .footer-container {
+        padding: 1em;
+        background-color:  hsl(233, 12%, 13%);
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .footer-logo {
+        color: white;
+        margin-bottom: 4em;
+    }
+
+    .footer-links {
+        display: flex;
+        gap: 8em;
+    }
+
+    .footer-links a {color: white;}
+    .footer-links li{margin-bottom: 1em;}
+
+    .left-links {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .right-links {
+        display: flex;
+        flex-direction: column;
+    }
+
+    input {
+        padding: 1em;
+        border: none;
+        border-radius: 20px;
+        margin-right: 1em;
+    }
+
+    .footer-btn {
+        padding: 1em;
+        border: none;
+        border-radius: 20px;
+        background-color: hsl(12, 88%, 59%);
+        color: white;
+        font-weight: 600;
+    }
+
+    .copyright {
+        margin-top: 3em;
+        color: white;
+
+    }
+    .attribution { font-size: 0.6875rem; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
